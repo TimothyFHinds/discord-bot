@@ -6,7 +6,7 @@ module.exports.run = async(client, message, args) => {
     if (response) {
         message.reply(`${response.activity}`);
     } else {
-        message.reply(`here's a tip from my parents, GET A JOB.`);
+        message.reply(`whatever you do, don't pet a burning dog.`);
     }
 }
 
